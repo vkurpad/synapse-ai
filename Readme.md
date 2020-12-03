@@ -29,7 +29,7 @@ Download the hotels review dataset or adapt the pipeline to work with your data.
 
 Once the cognitive services resource deployment completes, save the key and the region for the resorce. These will be parameters to your pipeline.
 
-Configure a linked service for an Azure Data Lake service and add the sample reviews file to a container called `hotel-reviews` in a folder named `input`.
+Configure a linked service for an Azure Data Lake service and add the sample reviews file to a container called `hotel-reviews` in a folder named `input`. The pipeline requies a few other sinks that are all folders in the same container.
 
 Configure a Synapse SQL pool for where the putputs will be written. 
 
